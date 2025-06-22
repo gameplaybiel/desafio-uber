@@ -1,0 +1,8 @@
+### Get all Movies
+GET http://localhost:8083/movies
+
+### Get Movies By Title
+GET http://localhost:8083/movies?title=Matrix
+
+## Get Movies By Prefix
+GET http://localhost:8083/movies?q=Matrix
